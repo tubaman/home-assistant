@@ -74,6 +74,7 @@ class AlarmDealerAlarm(alarm.AlarmControlPanel):
         self.alarmdealer = alarmdealer
         self._name = name
         self._code = str(code) if code else None
+        self._status = None
 
     @property
     def name(self):
